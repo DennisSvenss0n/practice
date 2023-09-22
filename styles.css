@@ -1,0 +1,33 @@
+/* Universal Styles */
+
+* {
+    border: 1px solid tomato;
+}
+
+/* Header and Navigation Bar */
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+header {
+
+}
+
+header img {
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 100px;
+} 
+
+#search-bar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100px;
+    height: 20px;
+}
+
+
+/* Main part of webpage */
