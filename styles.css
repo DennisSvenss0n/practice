@@ -30,4 +30,12 @@ header img {
 }
 
 
+
+nav li {
+    display: inline-flex;
+    margin: 10px;
+    
+}
+
+
 /* Main part of webpage */
