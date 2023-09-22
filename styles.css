@@ -1,17 +1,25 @@
 /* Universal Styles */
 
 * {
-    border: 1px solid tomato;
+    
 }
 
 /* Header and Navigation Bar */
 
 .container {
+    background-color: grey;
+    position: absolute;
+    /*top: 10;*/
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-flow: row wrap;
+    
 }
 
 header {
+    height: 100px;
 
 }
 
@@ -23,13 +31,17 @@ header img {
 
 #search-bar {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+     
     width: 100px;
     height: 20px;
 }
 
-
+nav {
+    top: 100px;
+    width: 100%;
+    justify-content: center;
+    z-index: -1;
+}
 
 nav li {
     display: inline-flex;
