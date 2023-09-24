@@ -53,3 +53,7 @@
 
 
 /* Main part of webpage */
+
+.flexbox-container-main {
+    display: flex;
+}
