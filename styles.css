@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 * {
-    
+ background-color: rgb(204, 204, 204);   
 }
 
 /* Header and Navigation Bar */
@@ -9,7 +9,7 @@
 .flexbox-container {
     flex-direction: row;
     display: flex;
-    border-bottom: 2px solid rgb(100, 100, 172);
+    border-bottom: 3px solid rgb(100, 100, 172);
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -56,4 +56,31 @@
 
 .flexbox-container-main {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+/* Left side main */
+#flexbox-container-main-item1 {
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Middle side main */
+
+#flexbox-container-main-item2 {
+    text-align: center;
+    height: 1000px;
+    flex-grow: 2;
+    border-left: 2px solid rgb(100, 100, 172);
+    border-right: 2px solid rgb(100, 100, 172);
+}
+
+/* Right side main */
+
+#flexbox-container-main-item3 {
+    text-align: center;
+    flex-grow: 1;
+}
+
