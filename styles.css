@@ -6,47 +6,49 @@
 
 /* Header and Navigation Bar */
 
-.container {
-    background-color: grey;
-    position: absolute;
-    /*top: 10;*/
+.flexbox-container {
+    flex-direction: row;
     display: flex;
+    border-bottom: 2px solid rgb(100, 100, 172);
     align-items: center;
     justify-content: space-around;
-    width: 100%;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+}
+
+/* Logotype picture */
+
+#flexbox-container-item1 {
+      
+}
+
+#flexbox-container-item1 img {
+    max-width: 200px;
+    max-height: 200px;
     
 }
 
-header {
-    height: 100px;
+/* Navigation Bar */
 
+#flexbox-container-item2  {
+    
 }
 
-header img {
-    max-width: 300px;
-    min-width: 200px;
-    min-height: 100px;
-} 
-
-#search-bar {
-    display: flex;
-     
-    width: 100px;
-    height: 20px;
-}
-
-nav {
-    top: 100px;
-    width: 100%;
-    justify-content: center;
-    z-index: -1;
-}
-
-nav li {
-    display: inline-flex;
+#flexbox-container-item2 li {
+    font-family: 'comic sans MS' sans-serif;
+    font-size: 20px;
     margin: 10px;
+    display: inline;
     
+    
+}
+
+
+
+/* Searchbar */
+
+#flexbox-container-item3 {
+
+
 }
 
 
