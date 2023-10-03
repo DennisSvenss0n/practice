@@ -1,0 +1,52 @@
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 2000px;
+    background-color: rgb(207, 206, 206);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(207, 206, 206,);
+    border-radius: 15px;
+    
+}
+
+#flexbox-item1 {
+    padding: 10px;
+
+    
+    
+}
+
+#flexbox-item2 {
+    padding: 10px;
+    font-style: italic;
+
+}
+
+#flexbox-item3 {
+    padding: 10px;
+
+}
+
+#flexbox-item4 {
+    padding: 10px;
+
+}
+
+#flexbox-item5 {
+    
+    padding: 10px;
+
+    
+}
+
+#flexbox-item5:hover {
+    cursor: pointer;
+
+    
+    
+}
