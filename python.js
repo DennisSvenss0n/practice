@@ -44,8 +44,14 @@ function callPython() {
     outputDiv.innerHTML = outputText
 }
 
+const arrayHello =[
+    "hej",
+    "pa",
+    "dig"
+]
 
-
-
-
+for (let index = 0; index < array.length; index++) {
+    console.log(arrayHello[i]);
+    
+}
 
